@@ -1,4 +1,4 @@
-﻿// Delegates //
+﻿// Delegates // (Ref: https://gamedevbeginner.com/events-and-delegates-in-unity/#event_based_systems )
 
 using System;
 using System.Collections.Generic;
