@@ -300,4 +300,5 @@ public class GameEventListener : MonoBehaviour
 // Game Event Listener is the observer. It listens for the event and triggers its own Unity Event when the event is called.
 // hold a reference to a global Game Event, which it uses to subscribe its own trigger function to that event, so that it can be called by the subject when the event takes place.
 
-// idea is that the subject and the observer both share the same global Game Event variable, connecting the two scripts
+// idea is that the subject and the observer both share the same global Game Event variable, connecting the two
+// can help to limit each script to a single purpose
