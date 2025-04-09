@@ -129,11 +129,11 @@ public class Program
         Stack<ICommand> commandHistory = new Stack<ICommand>();
         Random rand = new Random();
         Console.Write("Supported Commands: increment, decrement, double, randadd, undo \n" +
-                        "Enter single command (e.g., increment) or command sequence (e.g., increment, decrement, undo \n");
+                        "Enter single command (e.g., increment) or command sequence (e.g., increment, decrement, undo) \n");
 
         while (true)
         {
-            Console.Write("Enter command(s) (e.g., increment, decrement, double, randadd, undo: ");
+            Console.Write("Enter command(s) (e.g., increment, decrement, double, randadd, undo): ");
             string inputLine = Console.ReadLine()?.Trim().ToLower();
 
             if (string.IsNullOrEmpty(inputLine))
