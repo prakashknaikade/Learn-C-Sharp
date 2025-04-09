@@ -1,4 +1,4 @@
-# CommandPromptApp
+# CommandPatternApp
 
 The program accepts one command line argument: a number value that is used as
 initial value of a result variable. The program prompts its user for commands in an
