@@ -116,13 +116,13 @@ public class UndoCommand : ICommand
     }
 }
 
-public class Program
+public class CommandPatternApp
 {
     public static void Main(string[] args)
     {
         if (args.Length != 1 || !int.TryParse(args[0], out int result))
         {
-            Console.WriteLine("Usage: <program> <initial_value>");
+            Console.WriteLine("Usage: <CommandPatternApp> <initial_value>");
             return;
         }
 
